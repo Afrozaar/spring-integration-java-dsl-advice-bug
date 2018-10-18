@@ -1,6 +1,6 @@
 Little project to simulate and demonstrate: https://jira.spring.io/browse/INT-4545
 
-It sets up a simple message source, message handler and then via a service activator to which then via a service activator to an advice.
+It sets up a simple message source, message handler and then via a service activator an outbound advice chain is added.
 
 The advice chain returns a string and the test listens for messages on the advice output channel.
 
